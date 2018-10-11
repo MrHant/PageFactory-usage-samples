@@ -16,5 +16,5 @@ Treat this repository only as Kunstkammer.
 | GetPageObject method                                 | :heavy_check_mark: |
 | InitElements in SetUp                                | :heavy_check_mark: |
 | InitElements in each page method                     | :heavy_check_mark: |
-| Update InitElements after returning from page method |                    |
+| Update InitElements after returning from page method | :heavy_check_mark: |
 
