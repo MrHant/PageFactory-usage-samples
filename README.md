@@ -14,7 +14,7 @@ Treat this repository only as Kunstkammer.
 | Pages global class with properties with Singleton    | :heavy_check_mark: |
 | InitElements in constructor                          | :heavy_check_mark: |
 | GetPageObject method                                 | :heavy_check_mark: |
-| InitElements in SetUp                                |                    |
+| InitElements in SetUp                                | :heavy_check_mark: |
 | InitElements in each page method                     |                    |
 | Update InitElements after returning from page method |                    |
 
