@@ -10,7 +10,7 @@ Treat this repository only as Kunstkammer.
 | ---------------------------------------------------- | ------------------ |
 | official                                             | :heavy_check_mark: |
 | Pages global class                                   | :heavy_check_mark: |
-| Pages global class with properties                   |                    |
+| Pages global class with properties                   | :heavy_check_mark: |
 | Pages global class with properties with Singleton    |                    |
 | InitElements in constructor                          | :heavy_check_mark: |
 | GetPageObject method                                 |                    |
