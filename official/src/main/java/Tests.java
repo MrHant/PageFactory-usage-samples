@@ -9,7 +9,6 @@ import java.util.List;
 
 
 public class Tests {
-
     @Test
     public void enterTextInGoogleSearchInput(){
         // download driver binary
