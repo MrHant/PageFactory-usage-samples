@@ -32,8 +32,8 @@ public class Tests {
         GoogleResultsPage googleResultsPage = PageFactory.initElements(driver, GoogleResultsPage.class);
         List<String> results = googleResultsPage.searchResultsTitles();
 
-        // assert that there are 9 results
-        Assertions.assertEquals(9, results.size());
+        // assert that there are 10 results
+        Assertions.assertEquals(10, results.size());
 
 
         // close driver

@@ -4,13 +4,10 @@ import org.openqa.selenium.WebElement;
 
 
 public class GoogleSearchPage {
-
-    @FindBy(how = How.NAME, using = "q")
-    private WebElement queryField;
+    private WebElement q;
 
     public void searchFor(String text) {
-        queryField.sendKeys(text);
-        queryField.submit();
+        q.sendKeys(text);
+        q.submit();
     }
-
 }

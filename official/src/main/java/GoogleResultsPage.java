@@ -7,8 +7,7 @@ import java.util.stream.Collectors;
 
 
 public class GoogleResultsPage {
-
-    @FindBy(how = How.CSS, using = "a > h3")
+    @FindBy(how = How.TAG_NAME, using = "h3")
     private List<WebElement> searchResults;
 
     public List<String> searchResultsTitles(){
