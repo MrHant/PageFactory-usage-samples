@@ -4,7 +4,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
@@ -24,9 +23,5 @@ public class SpringBootDiApplication {
     @Bean
     public GoogleResultsPage googleResultsPage(WebDriver driver) {
         return PageFactory.initElements(driver, GoogleResultsPage.class);
-    }
-
-    public static void main(String[] args) {
-        SpringApplication.run(SpringBootDiApplication.class, args);
     }
 }
