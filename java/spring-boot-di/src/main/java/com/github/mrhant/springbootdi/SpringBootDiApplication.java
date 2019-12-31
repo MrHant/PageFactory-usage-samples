@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class SpringBootDiApplication {
-    @Bean
+    @Bean(destroyMethod = "quit")
     public WebDriver webDriver() {
         WebDriverManager.chromedriver().setup();
         return new ChromeDriver();

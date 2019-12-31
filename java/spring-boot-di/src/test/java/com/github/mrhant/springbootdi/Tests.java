@@ -33,8 +33,5 @@ public class Tests {
 
         // assert that there are 10 results
         assertEquals(10, results.size());
-
-        // close driver
-        driver.quit();
     }
 }
