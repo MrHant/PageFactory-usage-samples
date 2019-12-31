@@ -17,4 +17,5 @@ Treat this repository only as Kunstkammer.
 | InitElements in SetUp                                | :heavy_check_mark: |                    |
 | InitElements in each page method                     | :heavy_check_mark: |                    |
 | Update InitElements after returning from page method | :heavy_check_mark: |                    |
+| Spring Boot (Dependency Injection)                   |                    | :heavy_check_mark: |
 
